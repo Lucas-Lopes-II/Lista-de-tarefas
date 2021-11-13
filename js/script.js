@@ -1,28 +1,60 @@
 let btn = document.querySelector ('#button');
 
-let input = document.querySelector ('.from-control').value;
+let input = document.querySelector ('.from-control');
 
-let text = '';
+let list = document.querySelector ('#list');
 
-let list = document.querySelector ('#lista')
-
-let tasks = ['jogar bola', 'estudar inglês', 'estudar java script']
+let tasks = ['jogar bola', 'estudar inglês', 'estudar java script'];
 
 function executeList(){
     list.innerHTML ='';
 
     for(task of tasks){
-        let itemlist = document.createElement('li')
-    };
+        let itemList = document.createElement('li');
 
-    itemList.setAttribute('class', 'list-group-item list-group-item-action');
+        itemList.setAttribute('class', 'list-group-item list-group-item-action');
 
-    itemList.onclick = function(){
-        deleteTask();
+        itemList.onclick = function(){
+            deleteTask(this);
+        }
+
+        let itemText = document.createTextNode(task);
+
+        itemList.appendChild(itemText);
+
+        list.appendChild(itemList);
+    };  
+};
+
+executeList();
+
+btn.onclick = function (){
+    let newTask = input.value
+
+    if(newtask !== ""){
+        list.push(newTask);
+
+        executeList();
+
+        input.value = '';
+
+        removeErro();
+
+        saveDataOnStorege();
+
+    }else{
+        removeErro();
+
+
     }
+};
+
+
+function removeErro(){
+
 }
 
-btn.onclick = function () {
+function saveDataOnStorege(){
 
 }
 
@@ -32,8 +64,8 @@ function enputyInput(){
 
         
     }
-}
+};
 
-function deletTask(tar){
+function deleteTask(tar){
     
-}
+};
