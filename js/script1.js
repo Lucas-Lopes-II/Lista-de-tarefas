@@ -97,6 +97,7 @@ function removeErro(){
 
 //Saving new list function
 function saveDataOnStorege(){
+    localStorage.setItem('tesks', JSON.stringify(tasks));
 
 }
 
