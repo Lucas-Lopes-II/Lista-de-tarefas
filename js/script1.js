@@ -10,7 +10,7 @@ let list = document.querySelector ('#list');
 let card = document.querySelector('.card')
 
 //Arrey to put on the list <ul>
-let tasks = ['jogar bola', 'estudar inglês', 'estudar java script'];
+let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 //Functio to render the screen
 function executeList(){
@@ -97,7 +97,7 @@ function removeErro(){
 
 //Saving new list function
 function saveDataOnStorege(){
-    localStorage.setItem('tesks', JSON.stringify(tasks));
+    localStorage.setItem('tasks', JSON.stringify(tasks));
 
 }
 
