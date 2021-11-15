@@ -88,7 +88,11 @@ btn.onclick = function (){
 
 //Clearing error function
 function removeErro(){
-    
+    let spans = document.querySelectorAll('#error');
+
+    for(let i = 0; i < spans.length; i++){
+        card.removeChild(spans[i]);
+    }
 }
 
 //Saving new list function
