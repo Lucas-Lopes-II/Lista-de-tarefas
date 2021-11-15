@@ -7,6 +7,8 @@ let input = document.querySelector ('.from-control');
 //Take the list <ul>
 let list = document.querySelector ('#list');
 
+let card = document.querySelector('.card')
+
 //Arrey to put on the list <ul>
 let tasks = ['jogar bola', 'estudar inglês', 'estudar java script'];
 
@@ -47,10 +49,10 @@ btn.onclick = function (){
     let newTask = input.value
 
     //Analyze waht is in the input
-    if(newtask !== ""){ //If input's not empty
+    if(newTask !== ""){ //If input's not empty
 
-        //Adding tra input value in the list
-        list.push(newTask);
+        //Adding the input value in the list
+        tasks.push(newTask);
 
         //Redering the screen
         executeList();
@@ -66,16 +68,27 @@ btn.onclick = function (){
         saveDataOnStorege();
 
     }else{ //If input is empty
-        ////Clearing the error menssages
+        //Clearing the error menssages
         removeErro();
 
+        let span = document.createElement('span');
+
+        span.setAttribute('class', 'alert alert-warning');
+
+        span.setAttribute('id', 'error');
+
+        let errorMsg = document.createTextNode('You need to type a task');
+
+        span.appendChild(errorMsg);
+
+        card.appendChild(span);
 
     }
 };
 
 //Clearing error function
 function removeErro(){
-
+    
 }
 
 //Saving new list function
