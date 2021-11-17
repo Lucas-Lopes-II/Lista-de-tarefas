@@ -10,7 +10,7 @@ let list = document.querySelector ('#list');
 //Take the list <div> with card class
 let card = document.querySelector('.card');
 
-//Arrey to put on the list <ul>
+//Arrey to put in the list <ul>
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 //Function to render the screen
