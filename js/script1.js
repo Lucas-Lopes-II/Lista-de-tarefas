@@ -34,10 +34,10 @@ function executeList(){
         //Creating a texto to put in the <li> tag
         let itemText = document.createTextNode(task);
 
-        //Putting the text in the <li> tag
+        //Putting up the text in the <li> tag
         itemList.appendChild(itemText);
 
-        //Putting the <li> tag in the <ul> tag
+        //Putting up the <li> tag in the <ul> tag
         list.appendChild(itemList);
     };  
 };
@@ -72,16 +72,22 @@ btn.onclick = function (){
         //Clearing the error menssages
         removeErro();
 
+        //Ceting a tag <span>
         let span = document.createElement('span');
 
+        //Putting up a bootstrap training class
         span.setAttribute('class', 'alert alert-warning');
 
+        //Putting up an error id in span
         span.setAttribute('id', 'error');
 
+        //Creating an error text
         let errorMsg = document.createTextNode('You need to type a task');
 
+        //Putting up the error text in span
         span.appendChild(errorMsg);
-
+        
+        //Putting up span in the div
         card.appendChild(span);
 
     }
@@ -89,15 +95,19 @@ btn.onclick = function (){
 
 //Clearing error function
 function removeErro(){
+    //Getting all span tags that have the error id
     let spans = document.querySelectorAll('#error');
 
+    //Criating aa spans list
     for(let i = 0; i < spans.length; i++){
+        //Remove the child span tags from the div
         card.removeChild(spans[i]);
     }
 }
 
 //Saving new list function
 function saveDataOnStorege(){
+    //Putting up the tasks list in the local stora as a string
     localStorage.setItem('tasks', JSON.stringify(tasks));
 
 }
@@ -105,9 +115,12 @@ function saveDataOnStorege(){
 //Deleting task function
 function deleteTask(tar){
 
+    //Remove the task af the tasks list
     tasks.splice(tasks.indexOf(tar.textContent), 1);
 
+    ////Redering the screen
     executeList()
-
+    
+    ///Saving new list in storage
     saveDataOnStorege();
 };
