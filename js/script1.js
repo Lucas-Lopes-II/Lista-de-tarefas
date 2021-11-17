@@ -7,12 +7,13 @@ let input = document.querySelector ('.from-control');
 //Take the list <ul>
 let list = document.querySelector ('#list');
 
-let card = document.querySelector('.card')
+//Take the list <div> with card class
+let card = document.querySelector('.card');
 
 //Arrey to put on the list <ul>
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
-//Functio to render the screen
+//Function to render the screen
 function executeList(){
     //Clearing the list
     list.innerHTML ='';
@@ -46,7 +47,7 @@ executeList();
 
 //Click on button function
 btn.onclick = function (){
-    let newTask = input.value
+    let newTask = input.value;
 
     //Analyze waht is in the input
     if(newTask !== ""){ //If input's not empty
@@ -103,5 +104,10 @@ function saveDataOnStorege(){
 
 //Deleting task function
 function deleteTask(tar){
-    
+
+    tasks.splice(tasks.indexOf(tar.textContent), 1);
+
+    executeList()
+
+    saveDataOnStorege();
 };
