@@ -8,17 +8,38 @@
     margin: auto;
     padding: 2% 0 0 0%;
     background: #689dc9;
+    border: solid 1px;
     border-radius: 7px;
     width: 80%;
     height: 20%;
 }
 
+
 #card {
+    position: relative;
     margin: 0;
     padding: 0;
     border-radius: 7px;
     width: 100%;
     height: 100%;
+}
+
+
+#principal-text {
+    text-align: center;
+    margin: auto;
+    padding: 2% 0 2% 0;
+}
+
+
+#card-geral {
+    background: #94b2ca;
+    margin: 2px 2px 2px 2px;
+    padding: 0;
+    border: solid 1px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-size: cover;
 }
 
 
