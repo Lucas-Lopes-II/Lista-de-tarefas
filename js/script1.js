@@ -2,13 +2,13 @@
 let btn = document.querySelector ('#button');
 
 //Take the input
-let input = document.querySelector ('.from-control');
+let input = document.querySelector ('#input');
 
 //Take the list <ul>
 let list = document.querySelector ('#list');
 
 //Take the list <div> with card class
-let card = document.querySelector('.card');
+let card = document.querySelector('#card');
 
 //Arrey to put on the list <ul>
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
@@ -74,9 +74,6 @@ btn.onclick = function (){
 
         //Ceting a tag <span>
         let span = document.createElement('span');
-
-        //Putting up a bootstrap training class
-        span.setAttribute('class', 'alert alert-warning');
 
         //Putting up an error id in span
         span.setAttribute('id', 'error');
