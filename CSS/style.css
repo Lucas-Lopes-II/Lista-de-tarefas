@@ -4,3 +4,11 @@
 }
 
 
+#container {
+    margin: auto;
+    padding: 2% 0 2% 0%;
+    background: #5082ac;
+    border-radius: 7px;
+    width: 80%;
+    height: 20%;
+}
