@@ -6,9 +6,19 @@
 
 #container {
     margin: auto;
-    padding: 2% 0 2% 0%;
-    background: #5082ac;
+    padding: 2% 0 0 0%;
+    background: #689dc9;
     border-radius: 7px;
     width: 80%;
     height: 20%;
 }
+
+#card {
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+}
+
+
