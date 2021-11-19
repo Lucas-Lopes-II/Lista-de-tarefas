@@ -10,7 +10,7 @@
     background: #689dc9;
     border: solid 1px;
     border-radius: 7px;
-    width: 80%;
+    width: 50%;
     height: 20%;
 }
 
@@ -61,4 +61,24 @@
 
 input::placeholder {
     color: #363636a9;
+    font-size: 130%;
   }
+
+
+#button {
+    background: #4169E1;
+    margin: 0;
+    padding: 1% 1% 1% 1%;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 14.5%;
+    height: 3.3em;
+    color: black;
+    font-style: bold;
+}
+
+
+#button:hover {
+    background: #4169e12c;
+    border: solid rgb(4, 65, 247); 
+}
