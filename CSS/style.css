@@ -84,17 +84,20 @@ input::placeholder {
 }
 
 
-ul{
+ul {
     list-style: none;
     padding: 0;
     margin: 3% 0 2% 0;
 }
 
 
-li{
+li {
     font-family: arial;
-    margin: 1%;
-    margin-right: 5%;
-    padding: 1%;
+    font-weight: bold;
+    margin: 0.5%;
+    padding: 1% 1% 1% 2%;
     border: solid 1px;
-}
+    border-radius: 5px;
+    background-color: #819aaf;
+    font-size: 85%;   
+} 
