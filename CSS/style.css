@@ -82,3 +82,8 @@ input::placeholder {
     background: #4169e1e1;
     border: solid rgb(4, 65, 247); 
 }
+
+
+ul{
+    list-style: none;
+}
