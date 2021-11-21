@@ -87,3 +87,12 @@ input::placeholder {
 ul{
     list-style: none;
 }
+
+
+li{
+    font-family: arial;
+    margin: 1%;
+    margin-right: 5%;
+    padding: 1%;
+    border: solid 1px;
+}
