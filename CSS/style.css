@@ -74,7 +74,7 @@ input::placeholder {
     width: 14.5%;
     height: 3.3em;
     color: black;
-    font-style: bold;
+    font-weight: bold;
 }
 
 
@@ -94,10 +94,11 @@ ul {
 li {
     font-family: arial;
     font-weight: bold;
+    font-size: 85%;
+    color: rgb(44, 40, 40);
     margin: 0.5%;
     padding: 1% 1% 1% 2%;
     border: solid 1px;
     border-radius: 5px;
-    background-color: #819aaf;
-    font-size: 85%;   
+    background-color: #819aaf;    
 } 

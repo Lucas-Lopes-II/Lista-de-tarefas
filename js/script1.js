@@ -24,7 +24,7 @@ function executeList(){
         let itemList = document.createElement('li');
         
         //Setting a class atribute in the <li> tag
-        itemList.setAttribute('class', 'list-group-item list-group-item-action');
+        itemList.setAttribute('class', 'list-group-item');
 
         //Function to delete a item list
         itemList.onclick = function(){
