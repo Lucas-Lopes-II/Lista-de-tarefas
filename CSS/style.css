@@ -43,7 +43,7 @@
 
 #input-div {
     margin: 0;
-    padding: 0.4% 0.4% 0.4% 0.4%;
+    padding: 0.4% 0.4% 0.4% 0.5%;
     background-size: cover;
 }
 
@@ -79,6 +79,6 @@ input::placeholder {
 
 
 #button:hover {
-    background: #4169e12c;
+    background: #4169e1e1;
     border: solid rgb(4, 65, 247); 
 }
