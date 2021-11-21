@@ -8,7 +8,7 @@ let input = document.querySelector ('#input');
 let list = document.querySelector ('#list');
 
 //Take the list <div> with card class
-let card = document.querySelector('#card');
+let card = document.querySelector('#card-geral');
 
 //Arrey to put on the list <ul>
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
