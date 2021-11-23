@@ -8,11 +8,13 @@
 #body {
     position: relative;
     background: #4169E1;
+    paddin
 }
 
 
 #container {
     margin: auto;
+    margin-top: 20px;
     padding: 2% 0 0 0%;
     background: #689dc9;
     border: solid 1px;
