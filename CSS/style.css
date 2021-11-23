@@ -89,16 +89,25 @@ ul {
 
 
 li {
-    font-family: arial;
     font-weight: bold;
-    font-size: 85%;
+    font-size: 15px;
     color: rgb(44, 40, 40);
-    margin: 0.5%;
-    padding: 1% 1% 1% 2%;
+    margin: 4px;
+    padding: 7px 7px 7px 15px;
     border: solid 1px;
     border-radius: 5px;
-    background-color: #819aaf;    
+    background-color: #819aaf;
+    transition: 0.2s;
 } 
+
+li:hover{
+    margin: 1px;
+
+    
+}
+li:active{
+    margin: 8px;
+}
 
 
 #error{
