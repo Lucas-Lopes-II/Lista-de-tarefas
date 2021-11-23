@@ -35,6 +35,8 @@
     * In this version there was changes from portuguese to english for the project to reach more people around the world.
 * v1.1.0
     * This is the desktop web version (no responsiveness) and without some stylizations that were made later.
+* v1.1.
+    * This is still a desktop web version (no responsiveness), but with new CSS styles.
 
 
 ## Meta
