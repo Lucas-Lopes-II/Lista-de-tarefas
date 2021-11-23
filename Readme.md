@@ -1,5 +1,7 @@
 # 🚧 Under construction 🚧
 
+![To-Do List](img/readme/to-do_list.gif)
+
 # To-Do List
 
 >This is a simple _to-do list_ made with HTML, JavaScript and Bootstrap. Later migrated from bootstrap to CSS. 
@@ -8,13 +10,13 @@
 # Functionalities
 
 ### Increment the to-do list
-![increment](img/readme/increment.gif)
+![Functionality1](img/readme/increment.gif)
 
 ### Error menssage
-![increment](img/readme/error.gif)
+![Functionality2](img/readme/error.gif)
 
 ### Task done (delete it)
-![increment](img/readme/delete_task.gif)
+![Functionality3](img/readme/delete_task.gif)
 
 
 
