@@ -65,20 +65,20 @@ input::placeholder {
 
 #button {
     background: #4169E1;
-    margin: 0;
-    padding: 1% 1% 1% 1%;
     border-bottom-right-radius: 7px;
     border-top-right-radius: 7px;
-    width: 14.5%;
-    height: 3.3em;
+    border: black 1px;
+    width: 86.5px;
+    height: 40.5px;
     color: black;
     font-weight: bold;
+    font-size: 12px;
+    transition: 0.3s;
 }
 
 
 #button:hover {
-    background: #4169e1e1;
-    border: solid rgb(4, 65, 247); 
+    background: #4169e1bd; 
 }
 
 
