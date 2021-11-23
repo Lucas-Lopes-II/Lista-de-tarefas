@@ -58,7 +58,8 @@
 
 input::placeholder {
     color: #363636a9;
-    font-size: 130%;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
   }
 
 
