@@ -5,6 +5,7 @@
 # To-Do List
 
 >This is a simple _to-do list_ made with HTML, JavaScript and Bootstrap. Later migrated from bootstrap to CSS. 
+---
 
 
 # Functionalities
@@ -18,6 +19,7 @@
 ### Task done (delete it)
 ![Functionality3](img/readme/delete_task.gif)
 
+----
 
 
 ## Technologies used
@@ -27,6 +29,7 @@
 ✔ CSS
 ✔ Bootstrap
 
+---
 
 ## Updates (versions)
 * v1.0
@@ -35,10 +38,10 @@
     * In this version there was changes from portuguese to english for the project to reach more people around the world.
 * v1.1.0
     * This is the desktop web version (no responsiveness) and without some stylizations that were made later.
-* v1.1.
+* v1.1.1
     * This is still a desktop web version (no responsiveness), but with new CSS styles.
 
-
+---
 ## Meta
 **Made by:** Lucas Lopes
 
