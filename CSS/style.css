@@ -82,6 +82,12 @@ input::placeholder {
 }
 
 
+#button:active{
+    width: 80px;
+    height: 40px;
+}
+
+
 ul {
     list-style: none;
     margin: 5px 0 0 0;
@@ -103,8 +109,10 @@ li {
 li:hover{
     margin: 1px;
 
-    
+
 }
+
+
 li:active{
     margin: 8px;
 }
