@@ -1,35 +1,42 @@
 # 🚧 Under construction 🚧
 
 ![To-Do List](img/readme/to-do_list.gif)
+<br/><br/><br/><br/>
 
 # To-Do List
 
 >This is a simple _to-do list_ made with HTML, JavaScript and Bootstrap. Later migrated from bootstrap to CSS. 
 ---
-
+<br/><br/>
 
 # Functionalities
 
 ### Increment the to-do list
 ![Functionality1](img/readme/increment.gif)
+<br/>
 
 ### Error menssage
 ![Functionality2](img/readme/error.gif)
+<br/>
 
 ### Task done (delete it)
 ![Functionality3](img/readme/delete_task.gif)
 
 ----
-
+<br/><br/>
 
 ## Technologies used
 
 ✔ JavaScript
+
 ✔ HTML
+
 ✔ CSS
+
 ✔ Bootstrap
 
 ---
+<br/><br/>
 
 ## Updates (versions)
 * v1.0
@@ -42,6 +49,8 @@
     * This is still a desktop web version (no responsiveness), but with new CSS styles.
 
 ---
+<br/><br/>
+
 ## Meta
 **Made by:** Lucas Lopes
 
