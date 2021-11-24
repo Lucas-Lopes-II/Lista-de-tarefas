@@ -25,7 +25,7 @@
 ----
 <br/><br/>
 
-## Technologies used
+## 👨‍💻Technologies used
 
 ✔ JavaScript
 
@@ -38,13 +38,16 @@
 ---
 <br/><br/>
 
-## Updates (versions)
+## 🚀Updates (versions)
 * v1.0
     * This version is beta and very early.
+    <br/><br/>
 * v1.0.0
-    * In this version there was changes from portuguese to english for the project to reach more people around the world.
+    * In this version there was changes from portuguese to english for the project to reach more people around the world 🌎.
+    <br/><br/>
 * v1.1.0
     * This is the desktop web version (no responsiveness) and without some stylizations that were made later.
+    <br/><br/>
 * v1.1.1
     * This is still a desktop web version (no responsiveness), but with new CSS styles.
 
