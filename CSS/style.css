@@ -132,3 +132,7 @@ li:active{
     font-size: 85%;
     color: rgb(44, 40, 40);
 }
+
+
+@media screen and (max-width: 1240px) {
+}
