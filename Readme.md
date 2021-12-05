@@ -21,6 +21,11 @@
 
 ### Task done (delete it)
 ![Functionality3](img/readme/delete_task.gif)
+<br/>
+
+### Responsiveness
+![Responsiveness](img/readme/rp..gif)
+<br/>
 
 ----
 <br/><br/>
@@ -50,7 +55,10 @@
     <br/><br/>
 * v1.1.1
     * This is still a desktop web version (no responsiveness), but with new CSS styles.
-
+    <br/><br/>
+* v1.1.2
+    * This is a responsive web version for desktop and mobile.
+    <br/><br/>
 ---
 <br/><br/>
 
