@@ -1,5 +1,3 @@
-# 🚧 Under construction 🚧
-
 ![To-Do List](img/readme/to-do_list.gif)
 <br/><br/><br/><br/>
 
