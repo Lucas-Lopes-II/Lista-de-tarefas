@@ -11,15 +11,15 @@
 
 ### Increment the to-do list
 ![Functionality1](img/readme/increment.gif)
-<br/>
+<br/><br/>
 
 ### Error menssage
 ![Functionality2](img/readme/error.gif)
-<br/>
+<br/><br/>
 
 ### Task done (delete it)
 ![Functionality3](img/readme/delete_task.gif)
-<br/>
+<br/><br/>
 
 ### Responsiveness
 ![Responsiveness](img/readme/rp..gif)
