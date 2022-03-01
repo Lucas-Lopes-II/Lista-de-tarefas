@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Form from './To_do_form';
+import List from './List';
 import Item from './item';
 
 const Card = (props) => {
@@ -14,6 +15,7 @@ const Card = (props) => {
         <div className='card'>
             <h1 className='principal-text'>To-Do List</h1>
             <Form onAddItem={onAddItem}/>
+            <List items={items}/>
         </div>
     );
 
