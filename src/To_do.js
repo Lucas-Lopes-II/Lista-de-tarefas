@@ -1,9 +1,12 @@
-
+import React from 'react';
+import Card from './components/Card'
 import './To_do.css';
 
 function To_do() {
   return (
-    <div className='container'></div>
+    <div className='container'>
+      <Card></Card>
+    </div>
   );
 }
 
