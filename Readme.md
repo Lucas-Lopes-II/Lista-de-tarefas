@@ -1,4 +1,4 @@
-![To-Do List](img/readme/to-do_list.gif)
+![To-Do List](github/readme/to-do_list.gif)
 <br/><br/><br/><br/>
 
 # To-Do List
@@ -10,19 +10,19 @@
 # Functionalities
 
 ### Increment the to-do list
-![Functionality1](img/readme/increment.gif)
+![Functionality1](github/readme/increment.gif)
 <br/><br/>
 
 ### Error menssage
-![Functionality2](img/readme/error.gif)
+![Functionality2](github/readme/error.gif)
 <br/><br/>
 
 ### Task done (delete it)
-![Functionality3](img/readme/delete_task.gif)
+![Functionality3](github/readme/delete_task.gif)
 <br/><br/>
 
 ### Responsiveness
-![Responsiveness](img/readme/rp..gif)
+![Responsiveness](github/readme/rp..gif)
 <br/>
 
 ----
