@@ -30,6 +30,8 @@
 
 ## 👨‍💻Technologies used
 
+✔ React
+
 ✔ JavaScript
 
 ✔ HTML
