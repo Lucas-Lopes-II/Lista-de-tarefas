@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Form from './To_do_form';
 import List from './List';
 import Error from './ErrorMsg'
@@ -8,6 +8,17 @@ const Card = (props) => {
     const [items, setItems] = useState([]);
     const [errorMsg, setError] = useState(false);
 
+    useEffect(() => {
+        let savedItems = JSON.parse(localStorage.getItem('savedItems'));
+        if(savedItems){
+            setItems(savedItems);
+        };
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem('savedItems', JSON.stringify(items));
+    }, [items]);
+
     function onAddItem(text){
         let newItem = new Item(text);
         setItems([...items, newItem]);
@@ -16,7 +27,7 @@ const Card = (props) => {
 
     function handleErr(error){
         if(error){
-            setError(true)
+            setError(true);
         };
     };
 
