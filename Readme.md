@@ -3,7 +3,7 @@
 
 # To-Do List
 
->This is a simple _to-do list_ made with HTML, JavaScript and Bootstrap. Later migrated from bootstrap to CSS. 
+>This is a simple _to-do list_ made with HTML, JavaScript and Bootstrap. from JavaScript Vanilla to React and from bootstrap to CSS. 
 ---
 <br/><br/>
 
