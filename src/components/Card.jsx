@@ -14,12 +14,20 @@ const Card = (props) => {
         setError(false);
     };
 
+    function handleErr(error){
+        if(error){
+            setError(true)
+        };
+    };
+
     return(
-        <div className='card'>
+        <div className='container'>
             <h1 className='principal-text'>To-Do List</h1>
-            <Form onAddItem={onAddItem}/>
-            <List items={items}/>
-            <Error show={errorMsg}/>
+            <div className='card-geral'>
+                <Form onAddItem={onAddItem} handleErr={handleErr}/>
+                <List items={items}/>
+                <Error show={errorMsg}/>
+            </div>
         </div>
     );
 

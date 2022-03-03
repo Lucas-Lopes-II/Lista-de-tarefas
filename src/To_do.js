@@ -4,9 +4,7 @@ import './To_do.css';
 
 function To_do() {
   return (
-    <div className='container'>
-      <Card></Card>
-    </div>
+    <Card></Card>
   );
 }
 

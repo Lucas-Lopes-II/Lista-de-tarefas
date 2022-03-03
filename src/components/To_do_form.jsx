@@ -10,15 +10,17 @@ const Form = (props) => {
 
     function addItem(event){
         event.preventDefault();
-        if(text){
+        if(text != ''){
             props.onAddItem(text)
             setText('');
-        };
+        }else{
+            props.handleErr(true);
+        }
     };
 
     return(
         <form>
-            <input onChange={handleChange} type='text' value={text}/>
+            <input onChange={handleChange} type='text' className="input" value={text}/>
             <button onClick={addItem} type="button" className="button">Register</button>
         </form>
     );
