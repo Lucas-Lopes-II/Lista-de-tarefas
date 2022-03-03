@@ -11,11 +11,11 @@ const Form = (props) => {
     function addItem(event){
         event.preventDefault();
         if(text !== ''){
-            props.onAddItem(text)
+            props.onAddItem(text);
             setText('');
         }else{
             props.handleErr(true);
-        }
+        };
     };
 
     return(
