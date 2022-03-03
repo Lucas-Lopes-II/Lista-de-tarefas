@@ -10,7 +10,7 @@ const Form = (props) => {
 
     function addItem(event){
         event.preventDefault();
-        if(text != ''){
+        if(text !== ''){
             props.onAddItem(text)
             setText('');
         }else{

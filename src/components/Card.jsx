@@ -20,12 +20,17 @@ const Card = (props) => {
         };
     };
 
+    function onItemDeleted (item) {
+        let filteredItems = items.filter(it => it.id !== item.id);
+        setItems(filteredItems);
+    }
+
     return(
         <div className='container'>
             <h1 className='principal-text'>To-Do List</h1>
             <div className='card-geral'>
                 <Form onAddItem={onAddItem} handleErr={handleErr}/>
-                <List items={items}/>
+                <List items={items} onItemDeleted={onItemDeleted}/>
                 <Error show={errorMsg}/>
             </div>
         </div>
